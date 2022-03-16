@@ -218,7 +218,7 @@ textarea {
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   display: block;
-  width: 300px;
+  width: 80%;
   border: none;
   border-bottom: 1px solid #757575;
 }
@@ -374,6 +374,29 @@ img {
   padding: 1rem;
 }
 
+footer {
+  background-color: rgb(33, 37, 41);
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  color: #fff;
+}
+
+.footer-list li {
+  list-style: none;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.footer-list {
+  float: right;
+}
+
+
 @media (min-width: 40rem) {
   .cards_item {
     width: 50%;
@@ -457,5 +480,9 @@ img {
     margin-top: 20px;
     float: unset;
     width: 100%;
+  }
+
+  #contact {
+    padding: 0 !important;
   }
 }
